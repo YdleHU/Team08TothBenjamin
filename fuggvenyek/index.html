@@ -14,13 +14,17 @@
 
     <script src="fuggvenyek.js"></script>
     <script src="teglalap.js"></script>
+    <script src="parosE.js"></script>
     <script>
         IloveTypeScript();
         NegyzetKeruletTeruletEljaras(7);
         let generaltSzam = RandomGeneralo100Fuggveny();
         document.write("<br> A függvénnyel generált szám: " + generaltSzam);
-        let negyzetKerulet = negyzetKeruletFuggveny(3);
-        document.write("A négyzet kerülete: " + negyzetKerulet);
+        let negyzetKerulet = NegyzetKeruletFuggveny(3);
+        document.write("<br>A négyzet kerülete: " + negyzetKerulet);
+        TeglalapKerTer(3, 4);
+        let parosEazElem = 12;
+        document.write("<br>A paros szam:" + parosEazElem + "Eredmény:" + ParosE(parosEazElem));
 
     </script>
 </body>

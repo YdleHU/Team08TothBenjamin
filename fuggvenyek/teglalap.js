@@ -2,10 +2,10 @@
 exports.__esModule = true;
 //Téglalap kerület terület kiszámítása
 function TeglalapKerTer(a, b) {
-    var terulet = Math.round(Math.random() * 10);
-    var kerulet = Math.round(Math.random() * 10);
-    document.write("A téglalap [a] oldala:" + a + "<br>");
-    document.write("A téglalap [b] oldala:" + b + "<br>");
-    document.write("<br>Téglalap kerülete: " + kerulet);
-    document.write("<br>Téglalap területe: " + terulet);
+    var terulet = 2 * (a + b);
+    var kerulet = a * b;
+    document.write("<br>A(z) ".concat(a, " "));
+    document.write("<br>A(z) ".concat(a, " "));
+    document.write("<br>A ker\u00FClete: ".concat(kerulet));
+    document.write("<br>A ter\u00FClete: ".concat(terulet));
 }
