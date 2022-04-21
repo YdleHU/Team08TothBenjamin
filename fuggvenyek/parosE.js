@@ -4,12 +4,10 @@ exports.__esModule = true;
 //szám bemeneti paraméter
 //logikai értékkkel kell visszatérnie
 function ParosE(szam) {
-    var generaltSzam = Math.round(Math.random() * 100);
-    document.write("A generált szám: " + generaltSzam + "<br>");
-    if (generaltSzam % 2 == 0) {
-        document.write("A generált szám páros" + szam);
+    if (szam % 2 == 0) {
+        return true;
     }
     else {
-        document.write("A generált szám páratlan" + szam);
+        return false;
     }
 }
