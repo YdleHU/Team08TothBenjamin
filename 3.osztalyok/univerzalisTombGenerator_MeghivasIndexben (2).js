@@ -1,0 +1,1 @@
+document.write(UniverzalisTombGenerator(10, 20, 40));
